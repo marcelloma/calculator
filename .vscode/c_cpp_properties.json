@@ -3,7 +3,9 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/opt/homebrew/opt/libgccjit/include/**",
+                "/opt/homebrew/opt/json-c/include/**"
             ],
             "defines": [],
             "macFrameworkPath": [],
